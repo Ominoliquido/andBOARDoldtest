@@ -1,8 +1,29 @@
-body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+header {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 10vh;
+  background-color: black;
+  text-align: center;
 }
 
-a {
-  color: #00B7FF;
+#headerTitle {
+  /*color: #FF0000;*/
+  color: #F92A50;
+  line-height: 10vh;
+  font-size: 9vh;
+}
+
+main {
+  position: fixed;
+  left: 0;
+  top: 10vh;
+  width: 100vw;
+  height: 90vh;
+  text-align: center;
+}
+
+#background {
+  height: 100%;
 }
